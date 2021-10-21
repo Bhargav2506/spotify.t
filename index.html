@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-Your favorite destination is here.</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li id="0" class="brand"><img src="spo.png" alt="spotify">Spotify</li>
+
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        
+        <div class="songlist">
+           
+            <div class="songItemcontainer">
+               
+                <div class="songItem">
+                    <img src="who.jpg">
+                    <span class="songName">Who's in your head</span>
+                    <span class="songlistplay"><span class="timestamp">03.03<i id="0" class="far songItemPlay fa-2x fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="secon.jpg">
+                    <span class="songName">Second Emotion</span>
+                    <span class="songlistplay"><span class="timestamp">03.22<i id="1" class="far songItemPlay fa-2x fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="no.jpg">
+                    <span class="songName">No Promises</span>
+                    <span class="songlistplay"><span class="timestamp">02.46<i id="2" class="far songItemPlay fa-2x fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="moo.jpg">
+                    <span class="songName">Mood</span>
+                    <span class="songlistplay"><span class="timestamp">03.12<i id="3" class="far songItemPlay fa-2x fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="shi.png">
+                    <span class="songName">Shivers</span>
+                    <span class="songlistplay"><span class="timestamp">03.27<i id="4" class="far songItemPlay fa-2x fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="stay.jpg">
+                    <span class="songName">Stay</span>
+                    <span class="songlistplay"><span class="timestamp">02.21<i id="5" class="far songItemPlay fa-2x fa-play-circle"></i></span></span>
+                </div>
+            </div>
+        </div>
+        <div class="songbanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <i class="fas fa-3x fa-step-backward" id="previous"></i>
+            <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
+            <i class="fas fa-3x fa-step-forward"id="next"></i>
+        </div>
+        <div class="songinfo">
+            <img src="2.gif" width="50px"><span id="masterSongName">"Who's in your head"</span>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/d771d0127c.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
